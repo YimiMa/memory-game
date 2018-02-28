@@ -16,18 +16,11 @@ Less steps the play uses, more stars you will win.
 **Step 1: Global Parameters**
 I create some global parameters.
 In the following part of this file, these global parameters will be modified.
-
-` // Find the restart button.
- const restart = document.querySelector('.restart');
- // Find all cards in the webpage.
+`const restart = document.querySelector('.restart');
  const cards = document.querySelectorAll('.card');
- // The total number of unique cards
  let size = cards.length / 2;
- // Set the timer
  let t = 0;
- // Set previous picked cards
  let prevCard;
- // Define the total number of Moves
  let moves = 0;`
 
 **Step 2: Convert NodesList to array**
